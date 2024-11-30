@@ -1,0 +1,27 @@
+body {
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+background-size: cover;
+}
+
+.NG {
+  -webkit-text-stroke-color: aliceblue goldenrod;
+ color: rgb(245, 241, 236);
+height: 10cm;
+background-color: black;
+width: 9.5cm;
+margin-left: 500px;
+margin-top: 4cm;
+}
+
+
+@media (max-width: 768px) {
+
+  .NG {
+background-color: rgb(21, 24, 24);
+    margin-left: auto;
+    margin-right: auto;
+    height: auto;
+    width: 50%;
+  }
+}
